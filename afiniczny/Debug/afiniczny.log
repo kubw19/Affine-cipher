@@ -1,0 +1,4 @@
+﻿  SzyfrAfiniczny.cpp
+c:\users\jakub włodarczyk\desktop\studia\wkr\afiniczny\afiniczny\szyfrafiniczny.cpp(35): warning C4715: "SzyfrAfiniczny::number”: niewszystkie ścieżki kodu zwracają wartość
+c:\users\jakub włodarczyk\desktop\studia\wkr\afiniczny\afiniczny\szyfrafiniczny.cpp(57): warning C4715: "SzyfrAfiniczny::modInverse”: niewszystkie ścieżki kodu zwracają wartość
+  afiniczny.vcxproj -> C:\Users\Jakub Włodarczyk\Desktop\Studia\WKR\afiniczny\Debug\afiniczny.exe
