@@ -6,12 +6,12 @@ class Alfabet
 private:
 	int sizeN;
 public:
-	char* znaki;
+	char* letters;
 	Alfabet(int sizeN);
 	~Alfabet();
 
-	void insertZnaki(char* znaki);
-	void wypiszZnaki();
+	void insertLetters(char* letters);
+	void echoLetters();
 
 	int size();
 };

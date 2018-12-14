@@ -5,7 +5,7 @@
 Alfabet::Alfabet(int sizeN)
 {
 	this->sizeN = sizeN;
-	this->znaki = new char[sizeN]();
+	this->letters = new char[sizeN]();
 }
 
 
@@ -13,13 +13,13 @@ Alfabet::~Alfabet()
 {
 }
 
-void Alfabet::insertZnaki(char* Znaki) {
-	this->znaki = Znaki;
+void Alfabet::insertLetters(char* letters) {
+	this->letters = letters;
 }
 
-void Alfabet::wypiszZnaki() {
+void Alfabet::echoLetters() {
 	for (int i = 0; i < sizeN; i++) {
-		std::cout << znaki[i];
+		std::cout << letters[i];
 	}
 }
 
